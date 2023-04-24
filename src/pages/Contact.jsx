@@ -24,7 +24,7 @@ export default function Contact() {
   const [agreed, setAgreed] = useState(false);
 
   return (
-    <div className="isolate bg-white px-4 py-24 sm:py-32 lg:px-4">
+    <div id="contact" className="isolate bg-white px-4 py-24 sm:py-32 lg:px-4">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Contact sales

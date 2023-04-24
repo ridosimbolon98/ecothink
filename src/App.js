@@ -8,11 +8,13 @@ import Features from "./pages/Features";
 import Footer from "./pages/Footer";
 import Spesification from "./pages/Spesification";
 import Products from "./pages/Products";
+import Carousel from "./pages/Carousel";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App scroll-smooth">
       <Navbar />
+      <Carousel />
       <Hero />
       <Spesification />
       <Products />
