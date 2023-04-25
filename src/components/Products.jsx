@@ -1,17 +1,6 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+import React from "react";
+import { NavLink } from "react-router-dom";
+
 const callouts = [
   {
     name: "Desk and Office",
@@ -71,6 +60,14 @@ export default function Products() {
                 </p>
               </div>
             ))}
+          </div>
+          <div className="mx-auto text-center py-5">
+            <NavLink
+              className="bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-5 py-2.5 rounded-md"
+              to={"/product"}
+            >
+              Load more
+            </NavLink>
           </div>
         </div>
       </div>
