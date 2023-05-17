@@ -4,8 +4,9 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
+  { name: "Kuisioner", href: "kuisioner", current: false },
   { name: "About Us", href: "#about", current: false },
-  { name: "Product", href: "#product", current: false },
+  { name: "Product", href: "product", current: false },
   { name: "Press Releases", href: "#press", current: false },
   { name: "Event", href: "#event", current: false },
   { name: "Contact", href: "#contact", current: false },
@@ -67,29 +68,50 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-
                 {/* Social Media */}
                 <div className="relative ml-3">
                   <ul className="flex justify-end items-center space-x-2">
                     <li className="">
-                      <a className="" href="https://www.instagram.com/coatingandadhesive/" target="_blank" referrerPolicy="no-referrer">
-                        <img className="text-slate-200 w-9" src="/icons/icons8-instagram-48.svg"/>
+                      <a
+                        className=""
+                        href="https://www.instagram.com/coatingandadhesive/"
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                      >
+                        <img
+                          className="text-slate-200 w-9"
+                          src="/icons/icons8-instagram-48.svg"
+                        />
                       </a>
                     </li>
                     <li className="link">
-                      <a className="" href="https://www.facebook.com/coatingandadhesive" target="_blank" referrerPolicy="no-referrer">
-                        <img className="text-slate-200 w-9" src="/icons/icons8-facebook-48.svg"/>
+                      <a
+                        className=""
+                        href="https://www.facebook.com/coatingandadhesive"
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                      >
+                        <img
+                          className="text-slate-200 w-9"
+                          src="/icons/icons8-facebook-48.svg"
+                        />
                       </a>
                     </li>
                     <li className="link">
-                      <a className="" href="https://www.tiktok.com/@coatingandadhesive" target="_blank" referrerPolicy="no-referrer">
-                        <img className="text-slate-200 w-9" src="/icons/icons8-tiktok-48.svg"/>
+                      <a
+                        className=""
+                        href="https://www.tiktok.com/@coatingandadhesive"
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                      >
+                        <img
+                          className="text-slate-200 w-9"
+                          src="/icons/icons8-tiktok-48.svg"
+                        />
                       </a>
                     </li>
                   </ul>
                 </div>
-                
-
               </div>
             </div>
           </div>
